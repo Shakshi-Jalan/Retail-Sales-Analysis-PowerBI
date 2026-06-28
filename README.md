@@ -4,30 +4,21 @@ Retail Sales Analysis Dashboard using SQL and Power BI
 This project analyzes a retail sales dataset using SQL and Power BI to uncover business insights related to sales, profitability, customers, products, and shipping performance.
 The goal is to help businesses make data-driven decisions by identifying profitable regions, loyal customers, loss-making products, and operational trends.
 
-##  Tools & Technologies
+##  Tools & Technologies:
 - Power BI
 - MySQL
 - Microsoft Excel
 - DAX
 - GitHub
 
-## 📂 Project Structure
-Retail-Sales-Analysis-PowerBI
-│
-├── Dashboard
-├── Dataset
-├── SQL
-├── Screenshots
-└── README.md
-
-## Process
-1️⃣ Data Exploration (SQL)
+## Process:
+1️⃣ Data Exploration (SQL):
 Exploratory SQL queries were written against the retail_salesboard_project database to answer specific business questions, including regional/category sales and profit performance, loss-making sub-categories and products, the relationship between discount levels and profitability, customer order frequency and repeat behavior, and shipping performance by mode. A SQL view (v_customer_metrics) was also created for clean integration with Power BI.
 
-2️⃣ Data Modeling (Power BI / DAX)
+2️⃣ Data Modeling (Power BI / DAX):
 The dataset was imported into Power BI, where DAX measures were built to recreate and extend the SQL logic (profit margin, AOV, repeat customer rate, discount gap analysis). A summarized CustomerSegments table was created to classify customers by loyalty (Loyal / Occasional / One-Time) and profitability (High Profit / Profitable / Loss-Making). Calculated columns were also added for shipping-time classification (Fast / Normal / Late).
 
-3️⃣ Dashboard Design
+3️⃣ Dashboard Design:
 A 5-page interactive report was built, each page focused on a specific business question, with synced slicers (Region, Category, Segment, Year) for consistent cross-page filtering.
 
 ## Dashboard Pages:
@@ -60,7 +51,7 @@ Average shipping days and late shipment percentage
 Shipping performance and profit/sales by ship mode
 Late shipment trend by year
 
- ## Key Business Insights
+ ## Key Business Insights:
 1️⃣ Discounting is the primary driver of unprofitability. Loss-making products carry an average discount of 48%, vs. just 8% for profitable products - a ~40 point gap. Margins consistently turn negative once discount exceeds roughly 30%.
 
 2️⃣ Losses are concentrated in 3 sub-categories - Tables, Bookcases, and Supplies — all carrying above-average discounts. Binders is a notable exception: heavily discounted (~37%) yet still profitable, showing discount sensitivity varies by product.
@@ -75,7 +66,7 @@ Late shipment trend by year
 
 7️⃣ Standard Class is the most-used and slowest shipping mode, and drives the majority of both sales and profit.
 
-## Business Recommendations
+## Business Recommendations:
 1️⃣ Limit or redesign discount policies for Tables, Bookcases, and Supplies, as profitability declines sharply when discounts exceed 30%.
 
 2️⃣Identify products with consistently negative profit margins and evaluate whether to reprice, bundle, or discontinue low-performing items.
@@ -86,14 +77,7 @@ Late shipment trend by year
 
 5️⃣Monitor Standard Class shipments more closely and optimize logistics to reduce late deliveries, improve customer satisfaction, and control shipping-related costs.
 
-## Files Included
-Power BI Dashboard (.pbix)
-SQL Queries (.sql)
-Cleaned Dataset (.csv)
-Dashboard Screenshots
-This README
-
-## Dashboard Preview
+## Dashboard Preview:
 ### Executive Overview
 https://github.com/Shakshi-Jalan/Retail-Sales-Analysis-PowerBI/blob/main/Screenshots/Executive_overview.png?raw=true
 
@@ -109,7 +93,16 @@ https://github.com/Shakshi-Jalan/Retail-Sales-Analysis-PowerBI/blob/main/Screens
 ### Operations and Shipping Analysis
 https://github.com/Shakshi-Jalan/Retail-Sales-Analysis-PowerBI/blob/main/Screenshots/Operations_and_shipping_analysis.png?raw=true
 
-## Skills Demonstrated
+## Project Structure:
+Retail-Sales-Analysis-PowerBI
+│
+├── Dashboard
+├── Dataset
+├── SQL
+├── Screenshots
+└── README.md
+
+## Skills Demonstrated:
 -SQL 
 -Power BI & DAX 
 -Data Cleaning & Modeling
