@@ -88,16 +88,16 @@ This README
 https://github.com/Shakshi-Jalan/Retail-Sales-Analysis-PowerBI/blob/main/Screenshots/Executive_overview.png?raw=true
 
 ### Profit Analysis
-
+https://github.com/Shakshi-Jalan/Retail-Sales-Analysis-PowerBI/blob/main/Screenshots/Profit_analysis.png?raw=true
 
 ### Discount and Pricing Analysis
-
+https://github.com/Shakshi-Jalan/Retail-Sales-Analysis-PowerBI/blob/main/Screenshots/Discount_and_pricing_analysis.png?raw=true
 
 ### Customer Analysis
-
+https://github.com/Shakshi-Jalan/Retail-Sales-Analysis-PowerBI/blob/main/Screenshots/Customer_analysis.png?raw=true
 
 ### Operations and Shipping Analysis
-
+https://github.com/Shakshi-Jalan/Retail-Sales-Analysis-PowerBI/blob/main/Screenshots/Operations_and_shipping_analysis.png?raw=true
 
 ## Skills Demonstrated
 -SQL 
