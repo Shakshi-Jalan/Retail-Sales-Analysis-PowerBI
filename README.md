@@ -21,13 +21,13 @@ Retail-Sales-Analysis-PowerBI
 └── README.md
 
 ## Process
-1. Data Exploration (SQL)
+1️⃣ Data Exploration (SQL)
 Exploratory SQL queries were written against the retail_salesboard_project database to answer specific business questions, including regional/category sales and profit performance, loss-making sub-categories and products, the relationship between discount levels and profitability, customer order frequency and repeat behavior, and shipping performance by mode. A SQL view (v_customer_metrics) was also created for clean integration with Power BI.
 
-2. Data Modeling (Power BI / DAX)
+2️⃣ Data Modeling (Power BI / DAX)
 The dataset was imported into Power BI, where DAX measures were built to recreate and extend the SQL logic (profit margin, AOV, repeat customer rate, discount gap analysis). A summarized CustomerSegments table was created to classify customers by loyalty (Loyal / Occasional / One-Time) and profitability (High Profit / Profitable / Loss-Making). Calculated columns were also added for shipping-time classification (Fast / Normal / Late).
 
-3. Dashboard Design
+3️⃣ Dashboard Design
 A 5-page interactive report was built, each page focused on a specific business question, with synced slicers (Region, Category, Segment, Year) for consistent cross-page filtering.
 
 ## Dashboard Pages:
@@ -61,20 +61,30 @@ Shipping performance and profit/sales by ship mode
 Late shipment trend by year
 
  ## Key Business Insights
--Discounting is the primary driver of unprofitability. Loss-making products carry an average discount of 48%, vs. just 8% for profitable products - a ~40 point gap. Margins consistently turn negative once discount exceeds roughly 30%.
--Losses are concentrated in 3 sub-categories - Tables, Bookcases, and Supplies — all carrying above-average discounts. Binders is a notable exception: heavily discounted (~37%) yet still profitable, showing discount sensitivity varies by product.
--Loss-making products fall into two distinct groups with no overlap: high-volume products bleeding cash steadily, and low-volume products with structurally broken pricing so, these need different fixes.
--Losses are geographically concentrated, with Texas, Ohio, and Pennsylvania driving the largest dollar losses by state.
--Nearly 1 in 5 customers (~20%) are unprofitable overall, despite a very high repeat purchase rate (~98%) — repeat buying doesn't guarantee profitability.
--Shipping reliability is declining. Late shipments rose ~62% from 2014 to 2017 (406 → 657), slightly outpacing sales growth (~52%) over the same period.
--Standard Class is the most-used and slowest shipping mode, and drives the majority of both sales and profit.
+1️⃣ Discounting is the primary driver of unprofitability. Loss-making products carry an average discount of 48%, vs. just 8% for profitable products - a ~40 point gap. Margins consistently turn negative once discount exceeds roughly 30%.
+
+2️⃣ Losses are concentrated in 3 sub-categories - Tables, Bookcases, and Supplies — all carrying above-average discounts. Binders is a notable exception: heavily discounted (~37%) yet still profitable, showing discount sensitivity varies by product.
+
+3️⃣ Loss-making products fall into two distinct groups with no overlap: high-volume products bleeding cash steadily, and low-volume products with structurally broken pricing so, these need different fixes.
+
+4️⃣ Losses are geographically concentrated, with Texas, Ohio, and Pennsylvania driving the largest dollar losses by state.
+
+5️⃣ Nearly 1 in 5 customers (~20%) are unprofitable overall, despite a very high repeat purchase rate (~98%) — repeat buying doesn't guarantee profitability.
+
+6️⃣ Shipping reliability is declining. Late shipments rose ~62% from 2014 to 2017 (406 → 657), slightly outpacing sales growth (~52%) over the same period.
+
+7️⃣ Standard Class is the most-used and slowest shipping mode, and drives the majority of both sales and profit.
 
 ## Business Recommendations
--Limit or redesign discount policies for Tables, Bookcases, and Supplies, as profitability declines sharply when discounts exceed 30%.
--Identify products with consistently negative profit margins and evaluate whether to reprice, bundle, or discontinue low-performing items.
--For products that sell in high quantities but generate losses, investigate supplier costs, procurement contracts, or operational expenses instead of relying solely on discount reductions.
--Analyze purchasing patterns of loyal but unprofitable customers and review pricing, discount eligibility, or product mix to improve overall customer profitability.
--Monitor Standard Class shipments more closely and optimize logistics to reduce late deliveries, improve customer satisfaction, and control shipping-related costs.
+1️⃣ Limit or redesign discount policies for Tables, Bookcases, and Supplies, as profitability declines sharply when discounts exceed 30%.
+
+2️⃣Identify products with consistently negative profit margins and evaluate whether to reprice, bundle, or discontinue low-performing items.
+
+3️⃣For products that sell in high quantities but generate losses, investigate supplier costs, procurement contracts, or operational expenses instead of relying solely on discount reductions.
+
+4️⃣Analyze purchasing patterns of loyal but unprofitable customers and review pricing, discount eligibility, or product mix to improve overall customer profitability.
+
+5️⃣Monitor Standard Class shipments more closely and optimize logistics to reduce late deliveries, improve customer satisfaction, and control shipping-related costs.
 
 ## Files Included
 Power BI Dashboard (.pbix)
