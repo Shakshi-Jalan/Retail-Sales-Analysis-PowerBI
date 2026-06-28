@@ -4,7 +4,7 @@ Retail Sales Analysis Dashboard using SQL and Power BI
 This project analyzes a retail sales dataset using SQL and Power BI to uncover business insights related to sales, profitability, customers, products, and shipping performance.
 The goal is to help businesses make data-driven decisions by identifying profitable regions, loyal customers, loss-making products, and operational trends.
 
-##  Tools & Technologies:
+##  Tools Used:
 - Power BI
 - MySQL
 - Microsoft Excel
