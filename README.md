@@ -84,10 +84,8 @@ Dashboard Screenshots
 This README
 
 ## Dashboard Preview
-
-
 ### Executive Overview
-
+https://github.com/Shakshi-Jalan/Retail-Sales-Analysis-PowerBI/blob/main/Screenshots/Executive_overview.png?raw=true
 
 ### Profit Analysis
 
